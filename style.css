@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.image_wrapper{
+    background-image: url(image/255507006_912648539383724_8264524063152692027_n.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px;
+    height: 260px;
+    margin-bottom: 38px;
+}
+
+
+img {
+    align-items: center;
+    width: 210px;
+    height: 280px;
+    margin-left: 30px;
+    
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    margin-top: -25px;
+}
+
+
+.about_section_image{
+    margin-top: -50px;
+}
+
+ h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ h1{
+    color: red;
+    font-size: 46px;
+}
+
+.text_section_paragraph{
+    font-size: 12px;
+    font-weight: 650;
+    margin-top: 29px;
+}
+
+
+/* biography section start */
+
+.biography_section{
+    margin-top: 30px;
+    border-top: 1px solid rgb(201, 201, 201);
+    border-bottom: 1px solid rgb(201, 201, 201);
+    
+}
+
+/* .biography_section_container{
+    background-color: rgb(221, 221, 221);
+
+} */
+
+.biograpgy_text_section{
+    margin-top: 70px;
+}
+
+.biography_section_image{
+    margin-top: 50px;
+}
+
+
+.biography_section_image .image_wrapper{
+    background-image: url(image/261776096_322165789474006_1965946091699659079_n.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px;
+    height: 260px;
+
+}
+
+
+
+.biography_image_background {
+    margin-left: 60px;
+}
+
+
+h2.biography_h2{
+     font-size: 20px;
+    font-weight: 600;
+
+}
+
+P.biography_paragraph{
+    font-size: 12px;
+    font-weight: 650;
+
+}
+
+
+h1.latest_work_head{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 78px;
+    font-weight: 700;
+    margin-bottom: 54px;
+    color: black;
+}
+
+.latetst_work_image{
+    margin-bottom: 50px;
+}
+
+.client_say_h1 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 25px 0px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+h3.jhankar_mahbub_h3 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+h4.details {
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+
+.spech {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+p.contact_heading_p {
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.masaging_system{
+    text-align: center;
+}
+
+
+.text_area{
+    text-align: center;
+}
+
+.masaging_system input{
+   border: none;
+   border-bottom: 2px solid gray;
+}
+
+.masaging_system ::placeholder{
+    font-size: 16px;
+    color: rgb(185, 185, 185);
+}
+
+.massage input{
+    border: none;
+    border-bottom: 2px solid gray;
+    margin-bottom: 30px;
+}
+
+input[type="name"] {
+    font-size: 12px;
+}
+
+input[type="name"] {
+    font-size: 15px;
+}
+
+.massage {
+    font-size: 30px;
+}
+
+
+.btn {
+    width: 94px;
+    height: 33px;
+    background-color: #FF448E;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.btn:hover{
+    background-color: #FF448E;
+    color: white;
+}
+
+.leave_me_massage{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FF448E;
+    width: 373px;
+    height: 70px;
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+
+
+
+.leave_me_head h3{
+   
+    font-size: 14px;
+  
+
+}
+
+.leave_me_head h2{
+    margin-top: 10px;
+}
+
+.massage_h3{
+    margin-top: 20px;
+
+}
+
+
+.footer {
+    text-align: center;
+    /* margin: 25px 0px; */
+    margin: 50px 15px 0px 0px;
+    color: gray;
+    font-weight: 600;
+}
+
+
+
+@media (max-width: 775px) {
+    .biography_section_image .image_wrapper{
+        margin-top: 90px;
+    }
+
+
+    .about_section_image{
+        
+        margin-left: 50px;
+    }
+
+    h1.latest_work_head{
+        text-align: center;
+        font-size: 25px;
+        margin-top: 20px;
+        color: black;
+       
+    }
+
+
+    .leave_me_head {
+        text-align: center;
+        background-color: #FF448E;
+        width: 373px;
+        height: 70px;
+        color: white;
+    }
+
+
+    .latetst_work_image{
+        text-align: center;
+    }
+    
+
+    
+
+   
+
+ 
+    
+}
+
+
